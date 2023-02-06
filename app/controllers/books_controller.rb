@@ -68,3 +68,5 @@ class BooksController < ApplicationController
       params.require(:book).permit(:title)
     end
 end
+
+#test
